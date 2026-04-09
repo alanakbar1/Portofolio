@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alan Akbar - Portofolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Alan.jpeg" alt="Alan Akbar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Alan Akbar">Alan Akbar</h1>
+
+          <p class="title">Software Quality Assurance</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:alanakbar220@gmail.com" class="contact-link">alanakbar220@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+6282125875061" class="contact-link">+6282125875061</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-04-04">22 Agustus 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Jakarta Barat, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/alanakbar1" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/alanakbar/" class="social-link">
+              <ion-icon name="logo-linkedIn"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/alanakbar1/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me👋</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Informatics Engineering graduate with over 2 years of dedicated experience as a Quality Assurance professional. I have a proven track record of testing and refining various software suites to ensure peak functionality and user experience. My expertise lies in bridging the gap between complex technical requirements and high-quality deliverables, utilizing tools like Katalon, Postman API, AS400, and SQL to maintain rigorous testing standards. I am a detail-oriented problem solver who thrives on data analysis to drive software improvements.
+          </p>
+          <!--
+          <p>
+            My job is to ensure your software is functional, reliable, and meets the required standards. Moreover, I add a meticulous touch to your product and make sure it is robust and user-friendly. My aim is to deliver a high-quality product that meets your business needs and exceeds user expectations. I have experience in testing various types of software, from web applications to mobile apps.
+          </p>
+          -->
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What I Do</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-file-alt fa-2x"></i> </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Test Plan Development</h4>
+                <p class="service-item-text">I formulate strategic and structured test plans that align with your specific project goals. By defining precise objectives, scope, and resource timelines, I ensure a comprehensive testing roadmap that guarantees high-quality results from the start.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-list-alt fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Test Case Design</h4>
+                <p class="service-item-text">I engineer high-quality test cases that cover every angle of your software. From standard functional paths to complex boundary and negative scenarios, my designs are built to identify critical vulnerabilities and ensure absolute system reliability.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-play-circle fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Test Execution</h4>
+                <p class="service-item-text">I perform thorough and systematic evaluations of software functionality. Every test run is documented with meticulous precision, ensuring that the final product not only meets business requirements but also delivers a flawless user experience.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-bug fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> Bug Reporting & Tracking</h4>
+                <p class="service-item-text">I deliver detailed and actionable defect reports to bridge the gap between QA and development. By providing clear reproduction steps and severity-based priorities, I help teams resolve issues faster and maintain a transparent development lifecycle.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-cog fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Test Automation</h4>
+                <p class="service-item-text">I develop and maintain robust automated scripts to maximize testing efficiency. Focused on regression suites and repetitive tasks, my automation solutions provide rapid feedback, reduce manual effort, and accelerate the continuous integration process.</p>
+              </div>
+          </ul>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Tools🔧</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-tasks fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Katalon Studio</h4>
+                <p class="service-item-text">Web & Mobile Automation Testing</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fab fa-github fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cypress</h4>
+                <p class="service-item-text">Web Automation Testing</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-paper-plane fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Jmeter</h4>
+                <p class="service-item-text">Performance & Load Testing</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-paper-plane fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Postman</h4>
+                <p class="service-item-text">API Testing & Development</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fab fa-python fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Jira</h4>
+                <p class="service-item-text">Project Management Tools</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-table fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Visual Studio Code</h4>
+                <p class="service-item-text">Code Editor & IDE</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-robot fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AS400</h4>
+                <p class="service-item-text">Legacy System / Mainframe</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-vial fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Github</h4>
+                <p class="service-item-text">Version Control & Repository Management</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-mobile-alt fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">figma</h4>
+                <p class="service-item-text">Design & Prototyping Tool</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-table fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Spreadsheets</h4>
+                <p class="service-item-text">Test Cases & Bug Tracking</p>
+              </div>
+            </li>
+            
+          </ul>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Soft Skills</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-bullseye fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Critical Thinking</h4>
+                <p class="service-item-text">Analyzing facts objectively to form logical judgments and effective solutions.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-comments fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Adaptability</h4>
+                <p class="service-item-text">The ability to quickly adjust to new technologies and changing work environments.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-exclamation-circle fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Leadership</h4>
+                <p class="service-item-text">Guiding teams with a clear vision and fostering collaboration to achieve shared goals.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-balance-scale fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Conflict Resolution</h4>
+                <p class="service-item-text">Handling disagreements calmly and finding constructive solutions that benefit everyone</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-heart fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Time Management</h4>
+                <p class="service-item-text">Efficiently prioritizing tasks to ensure all projects are completed within deadlines</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-heart fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Creative Problem Solving</h4>
+                <p class="service-item-text">Finding innovative and "out-of-the-box" ways to overcome complex technical obstacles.</p>
+              </div>
+            
+            </li>
+          </ul>
+        </section>
+        <!--
+        <section class="service">
+          <h3 class="h3 service-title">Certificates 🏆</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-certificate fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Deployment Perangkat Lunak</h4>
+                <p class="service-item-text">TLAB</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-tools fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Certified System Analyst</h4>
+                <p class="service-item-text">Badan Nasional Sertifikasi Profesi (BNSP)</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <i class="fas fa-clipboard-check fa-2x"></i>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IT Specialist - HTML and CSS</h4>
+                <p class="service-item-text">Certiport - A Pearson VUE Business</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        
+
+      </article>
+-->
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Insititut Teknologi PLN</h4>
+
+              <span>Aug 2018 — Aug 2022</span>
+
+              <p class="timeline-text">
+                Bachelor of Informatics engineering<br>
+                IPK : 3.35/4.00 
+              </p>
+
+            </li>
+
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+          
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">PT Adidata Informatika - PT Bank Syariah Indonesia Tbk</h4>
+              
+              <h4 class="h4 timeline-item-title">Software Quality Assurance </h4>
+
+              <span>May 2025 — Present</span>
+              <p class="timeline-text">
+                • Conducting onboarding testing on banking service systems in the Temenos system. <br>
+                • Created and executed test cases and test scenarios based on user stories and Product Requirement Document.<br>
+                • Participated in User Acceptance Testing (UAT) with business teams<br>
+                • Collaborated closely with developers, product owners, and business analysts within an Agile (Scrum) environment to deliver system 
+                  releases<br>
+                • Create bug reports that are executed when testing in the SIT environment or in UAT using the Jira tool<br>
+                • Ensured quality across environments by performing smoke and sanity testing for every release cycle<br>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">PT Grestenan Ramdhani - PT Bank Mandiri Tbk</h4>
+               
+              <h4 class="h4 timeline-item-title">Software Quality Assurance </h4>
+              <span>Feb 2023 — May 2025</span>
+              <p class="timeline-text">
+                • Conducted functional and end-to-end testing for internal banking applications used by branch staff, including teller systems, customer 
+                onboarding platforms, and internal approval workflows.<br>
+                • Worked closely with business users from various branches to gather feedback and replicate issues reported from production 
+                  environments.<br>
+                • Validated integration between front-office applications and backend systems (core banking, CRM, document management).<br>
+                • Executed manual testing based on business requirements, while maintaining clear test documentation using TestRail and Excel-based 
+                  test matrices.<br>
+                • Reported bugs and improvement suggestions to the development team using JIRA, ensuring timely resolution before branch-wide 
+                  rollouts.<br>
+                • Participated in UAT sessions with regional branch representatives and supported pilot testing before nationwide deployment.<br>
+              </p>
+            </li>
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Test Plan Development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Test Case Design</h5>
+                <data value="70">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Bug Reporting & Tracking</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Test Automation</h5>
+                <data value="50">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+            <!--
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Test API</h5>
+                <data value="50">80%</data>
+              </div>
+            
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+             -->
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Test Performance</h5>
+                <data value="50">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+<!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Manual</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Automation</button>
+            </li>
+            
+            <li class="filter-item">
+              <button data-filter-btn>Test Cases</button>
+            </li>
+          
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Manual</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Automation</button>
+              </li>
+              
+              <li class="select-item">
+                <button data-select-item>Test Cases</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="test cases">
+              <a href="https://docs.google.com/spreadsheets/d/1fCFG61RJzT8VePYGhH2AMx6tfnwmPLOejrXEbdIIzmQ/edit?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/image 10.png" alt="Sample Test Cases NBDS" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sample Test Cases NBDS</h3>
+
+                <p class="project-category">Test Cases</p>
+
+              </a>
+            </li>
+
+            
+            <li class="project-item  active" data-filter-item data-category="test cases">
+              <a href="https://docs.google.com/spreadsheets/d/1wAxEUzTn2gaOuODtJnrcyWwWa5m5Vn8VMcJXjOlgbTs/edit?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/imageorangehrm 1.png" alt="Sample Test Case Saucedemo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sample Test Cases Saucedemo</h3>
+
+                <p class="project-category">Test Cases</p>
+
+              </a>
+            </li>
+           <li class="project-item  active" data-filter-item data-category="test cases">
+              <a href="https://docs.google.com/spreadsheets/d/176D5p6fDxnTCBItfKSw36L63rqzUcRmyHf2moGKaQxo/edit?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/manual1.png" alt="Sample Test Cases OrangeHRM" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sample Test Cases OrangeHRM</h3>
+
+                <p class="project-category">Test Cases</p>
+
+              </a>
+            </li>
+            
+
+            
+
+        
+            <li class="project-item  active" data-filter-item data-category="automation">
+              <a href="https://github.com/alanakbar1/OrangHRMKatalon">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/image 9.png" alt="Katalon Automation OrangeHRM" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Katalon Automation OrangeHRM</h3>
+
+                <p class="project-category">Automation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="automation">
+              <a href="https://github.com/alanakbar1/SaucedemoCypress">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/orangeKatalon.png" alt="Cypress Automation Saucedemo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cypress Automation Saucedemo</h3>
+
+                <p class="project-category">Automation</p>
+
+              </a>
+            </li>
+
+            <!--
+            <li class="project-item  active" data-filter-item data-category="automation">
+              <a href="https://github.com/MuhammadIhsan45/swaglabs-android-automation.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/image 11 1.png" alt="Automation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Swaglabs RobotFramework Android Automation</h3>
+
+                <p class="project-category">Automation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="performance">
+              <a href="https://drive.google.com/file/d/1ZcBs2Q3SOcDF1UJAF_csQnVRvZSOMubQ/view?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/per.png" alt="Performance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Performance Testing Jmeter FakeRESTAPI Activities (without tokens) (</h3>
+
+                <p class="project-category">Performance</p>
+
+              </a>
+            </li>
+            -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
